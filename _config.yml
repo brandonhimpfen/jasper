@@ -1,0 +1,43 @@
+name: Jasper
+description: Your New Jekyll Site
+meta_description: "Your New Jekyll Site"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 10
+paginate_path: "/page:num/"
+baseurl: /jasper
+domain_name: "http://brandonthemes.github.io"
+google_analytics: "UA-XXXXXXXX-X"
+plugins: [jekyll-paginate]
+
+author: Brandon Himpfen
+author_desc: Author description goes here.
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /:slug/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
