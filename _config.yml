@@ -8,7 +8,7 @@ logo: false
 paginate: 10
 paginate_path: "/page:num/"
 baseurl: /jasper
-domain_name: "http://brandonthemes.github.io"
+domain_name: "https://themes-demo.himpfen.io"
 google_analytics: "UA-XXXXXXXX-X"
 plugins: [jekyll-paginate]
 
